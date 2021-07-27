@@ -1,0 +1,71 @@
+/* 
+    Created on : Dec 2, 2019, 4:56:41 PM
+    Author     : neury
+*/
+#n-bienvenido {
+    -fx-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.5), 6, 0.0, 2, 2);  
+}
+#n-frase-de-bienvenida {
+    -fx-fill: white;
+    -fx-font-size: 14px;
+    -fx-opacity: 0.7; 
+}
+#n-label-form {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.3), 6, 0.0, 2, 2); 
+}
+#n-field-form { 
+    -fx-background-color: white;
+    -fx-background-radius: 20px;
+    -fx-border-color: white;
+    -fx-border-radius: 20px;
+    /*-fx-prompt-text-fill: green;*/
+}
+/*.text-area { -fx-background-size: 200px, 180px;
+    -fx-background-color: none; 
+    -fx-border-color: none; 
+    -fx-background-color: black;
+    -fx-background-radius: 20px;
+    -fx-border-color: red;
+    -fx-border-radius: 20px;
+}*/
+/*#n-text-area-form {  
+    -fx-background-size: 0px, 180px; 
+    -fx-background-color: black;
+    -fx-background-radius: 20px;
+    -fx-border-color: red;
+    -fx-border-radius: 20px;
+}*/
+#n-aceptar-form {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-border: none;
+    -fx-border-color: white;
+    -fx-border-radius: 50%;
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-opacity: 0.7;
+}
+#n-aceptar-form:hover { -fx-border-style: dashed; }
+#n-cancelar-form {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-opacity: 0.7;
+}
+#n-cancelar-form:hover { -fx-font-weight: bold; }
+#n-error-form {
+    -fx-fill: FIREBRICK;
+    -fx-font-weight: bold;
+    /*-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );*/
+}
+#n-error-null-form {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+    /*-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );*/
+}

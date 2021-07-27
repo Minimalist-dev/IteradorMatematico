@@ -1,0 +1,21 @@
+- Colores
+https://docs.oracle.com/javase/8/javafx/api/javafx/scene/paint/Color.html
+
+- CSS Referencia
+https://docs.oracle.com/javase/8/javafx/api/javafx/scene/doc-files/cssref.html
+
+- TextImputControl
+javafx.scene.control.TextInputControl
+
+- GridPane: javafx.scene.layout.ColumnConstraints + javafx.scene.layout.RowConstraints
+crear un GridPane donde las columnas toman el 25%, 50%, 25% de su ancho:
+crear un GridPane donde las filas ocupan el 25%, 50%, 25% de su ancho:
+
+- SQL
+Consultas preparadas para   : cunsultas, inserciones, actualizaciones, eleminaciones > (Consultas SIMPLES) o algunos datos.
+Procedimientos para         : cuando se quiera manipular los datos desde el sevidor  > (Consulatas AVANZADAS) o muchos datos.
+Triggers para               : Copia de seguridad, registros de cambios, comprovaciones desde el servidor...
+Eventos par                 : Cuando se quieran realizar tareas automaticas.
+
+Funciones                   : No son necesarias (utilizar el front o procedimientos) a menos que no se use el front-end.
+Vistas                      : No son necesarias (Solo hay que evitar las entradas de campos a la base de datos).

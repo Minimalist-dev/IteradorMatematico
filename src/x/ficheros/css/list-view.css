@@ -1,0 +1,35 @@
+/* 
+    Created on : 12 feb. 2020, 10:59:21
+    Author     : desarrollador
+*/
+.list-view { 
+    /*-fx-column-fill: red;*/ 
+    /*-fx-column-rule-color: green;*/  
+    /*-fx-color: #818181;*/
+    -fx-background-color: none;
+    -fx-border-color: none;
+}
+.scroll-bar > .track { -fx-background-color: white; }
+.scroll-bar > .track-background { -fx-background-color: white; }
+.scroll-bar .thumb {
+    -fx-background-color: #818181;
+    -fx-background-radius: 5em;
+    -fx-border-color: transparent;
+}
+.scroll-bar > .thumb:hover { -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.7), 8, 0.0 , 8, 8); }
+.increment-button:hover, .decrement-button:hover { -fx-background-color: transparent; }
+.increment-button > .increment-arrow, .decrement-button > .decrement-arrow { -fx-background-color: #818181; }
+.list-cell { 
+    -fx-text-fill: #818181;
+    -fx-background-color: white; 
+    -fx-cell-size: 70;
+    -fx-border: none;
+    -fx-border-color: #818181;
+    /*-fx-border-radius: 20px;*/
+    -fx-border-style: solid;
+    -fx-border-width: 0.5;
+}
+.list-cell:selected {
+    -fx-text-fill: white;
+    -fx-background-color: #818181;
+}

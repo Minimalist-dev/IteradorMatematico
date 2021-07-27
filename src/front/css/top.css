@@ -1,0 +1,86 @@
+/* 
+    Created on : Dec 2, 2019, 4:56:29 PM
+    Author     : neury
+*/
+.n-nombre {
+    -fx-fill: white;
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 8, 0.0, 4, 4);
+}
+#n-stageStyle {
+    -fx-text-fill: #818181;
+    -fx-background-color: white;
+    -fx-background-radius: 4px;
+    -fx-border: none;
+    -fx-border-color: transparent;
+    -fx-border-radius: 4px;
+    -fx-border-style: solid;
+    -fx-border-width: 1.5;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 8, 0.0, 4, 4);
+}
+#n-stageStyle:hover { 
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-border-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255,0.6), 6, 0.0 , 4, 4);
+}
+.hyperlink {
+    -fx-text-fill: white;
+    -fx-border-color: transparent; 
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.3), 6, 0.0, 2, 2); 
+}
+.hyperlink:hover { -fx-effect: innershadow(three-pass-box, rgba(255, 255, 255, 1), 6, 0.0, 2, 2); }
+.dialog-pane {
+    -fx-background-color: #818181;
+}
+.n-button-type-cerrar { 
+    -fx-text-fill: #818181;
+    -fx-background-color: white;
+    -fx-background-radius: 4px;
+    -fx-border: none;
+    -fx-border-color: transparent;
+    -fx-border-radius: 4px;
+    -fx-border-style: solid;
+    -fx-border-width: 1.5;
+    -fx-cursor: hand;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 8, 0.0, 4, 4);
+}
+.n-button-type-cerrar:hover { 
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-border-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255,0.6), 6, 0.0 , 4, 4);
+}
+.n-button-type-idioma { -fx-translate-x: 10; -fx-translate-y: -250; }
+.n-button-type-ayuda { -fx-translate-x: 10; -fx-translate-y: -330; }
+.titled-pane {  
+    -fx-text-fill: white; 
+    -fx-font-weight: bold;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.3), 6, 0.0, 2, 2); 
+}
+.titled-pane:collapsed * { -fx-color: #818181; }
+.titled-pane:expanded * { -fx-color: #818181;}
+.titled-pane > .content { 
+    -fx-background-color: #818181; 
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 8, 0.0, 4, 4);
+}
+.accordion > .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.3), 6, 0.0, 2, 2); 
+}
+#n-label-ayuda {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.3), 6, 0.0, 2, 2); 
+}
+#n-text-ayuda {
+    -fx-fill: white;
+}
+/*.custom-alert {
+    -fx-background-color: black;
+}*/
+

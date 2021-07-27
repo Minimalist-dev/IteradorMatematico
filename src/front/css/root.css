@@ -1,0 +1,18 @@
+/* 
+    Created on : Dec 2, 2019, 5:46:38 PM
+    Author     : neury
+*/
+.root { 
+    /*-fx-font-family: "Arial Black";*/
+    /*-fx-base: rgb(132, 145, 47);*/
+    /*-fx-text-fill: red;*/
+    -fx-background: none;
+    /*-fx-background-image: url("../imagenes/sf.jpg");*/
+    /*-fx-background-size: 100% 100%;*/ 
+}
+.toggle-button, .button, .menu, .menu-item, .tab, .list-cell, 
+.scroll-bar > .thumb, .increment-button, .decrement-button { -fx-cursor: hand; }
+/** { -fx-font-family: "Courier New"; }*/
+/*
+scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));helpText.setFont(Font.font("Verdana", FontWeight.BOLD, 18));
+*/

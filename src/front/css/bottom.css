@@ -1,0 +1,29 @@
+/* 
+    Created on : Dec 2, 2019, 5:07:14 AM
+    Author     : neury
+*/
+.toggle-button {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 4, 4);
+}
+.toggle-button:hover {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-background-radius: 50px;
+    -fx-border: none;
+    -fx-border-color: white;
+    -fx-border-radius: 50%;
+    -fx-border-style: solid;
+    -fx-border-width: 1.5;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255,0.6), 6, 0.0 , 4, 4);
+}
+.n-selected:selected { 
+    -fx-text-fill: #818181;
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.7), 8, 0.0 , 8, 8);
+}
+

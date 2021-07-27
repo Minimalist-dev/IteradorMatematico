@@ -1,0 +1,22 @@
+- Referencia de la API
+https://developer.android.com/reference
+
+- Guia de diseño
+https://developer.android.com/design
+
+- Intent        > https://developer.android.com/guide/components/intents-filters.html
+- manifest.xml  > https://developer.android.com/guide/topics/manifest/manifest-intro.html
+- Recursos      > https://developer.android.com/guide/topics/resources/providing-resources
+- Guia de desarrollador
+https://developer.android.com/guide
+    Introducción:
+        Como crear tu primera app > fin
+        Aspectos fundamentales de la app > fin
+        Recursos de la app
+            Descripción general
+            Cómo administrar los cambios en la configuración
+            Localización
+            Recursos XML complejos
+            Tipos de recursos
+                Descripción general
+                .....................................
